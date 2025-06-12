@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semilleros de Investigación - Universidad EAN</title>
+    <link rel="stylesheet" href="semillero cuerpo">
+</head>
+<body>
+
+    <header>
+        <h1>Semilleros de Investigación de la Universidad EAN</h1>
+    </header>
+
+    <main>
+        <section id="que-son">
+            <h2>¿Qué son los Semilleros de Investigación?</h2>
+            <p>
+                Son espacios de colaboración para que los estudiantes de pregrado, con el apoyo de un tutor, fortalezcan sus competencias investigativas.  Esto se logra mediante el desarrollo de proyectos de investigación o el estudio de temáticas específicas.  El objetivo es que los estudiantes elaboren productos de investigación de forma autónoma. 
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="productos">
+            <h2>Productos de Investigación</h2>
+            <p>Los estudiantes pueden desarrollar diversos productos de investigación:</p>
+            <ul>
+                <li><strong>Artículo científico:</strong> Un texto que desarrolla un tema concreto relacionado con la investigación del semillero. </li>
+                <li><strong>Working paper:</strong> Un escrito preliminar para dar a conocer los avances de una investigación. </li>
+                <li><strong>Boletín divulgativo:</strong> Una publicación para divulgar avances o resultados de trabajos científicos. </li>
+                <li><strong>Evento científico:</strong> Participación como ponente o con un póster en un evento. </li>
+                <li><strong>Prototipo:</strong> Un primer modelo de un nuevo producto, común en ingenierías. </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="beneficios">
+            <h2>Beneficios de Participar</h2>
+            <ul>
+                <li>Apoyo económico para inscripciones y movilidades a eventos. </li>
+                <li>Capacitaciones y talleres para fortalecer conocimientos. </li>
+                <li>Reconocimiento a proyectos destacados y certificaciones institucionales. </li>
+                <li>Visibilidad académica a través de publicaciones. </li>
+                <li>Posibilidad de ser joven investigador financiado por Minciencias. </li>
+                <li>Descuento del 20% en el valor de la matrícula (cumpliendo requisitos). </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="requisitos">
+            <h2>Requisitos para Conformar un Semillero</h2>
+            <ul>
+                <li>Debe estar conformado por al menos dos estudiantes activos y uno o dos tutores. </li>
+                <li>Debe estar adscrito a un grupo de investigación de la Universidad. </li>
+                <li>Los semilleros deben tener un nombre, un objetivo principal y objetivos específicos. </li>
+                <li>Se debe proponer un plan de actividades semestral avalado por los tutores y el director del grupo. </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <p>Si deseas más información, contáctanos a través del correo <a href="mailto:semillerosean@universidadean.edu.co">semillerosean@universidadean.edu.co</a>  o llena el siguiente formulario.</p>
+            
+            <form action="#" method="post">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="semillero">Semillero de Interés:</label>
+                <input type="text" id="semillero" name="semillero">
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Universidad EAN - Proyecto de Aula</p>
+    </footer>
+
+</body>
+</html>
