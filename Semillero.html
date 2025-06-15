@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semilleros de Investigación - Universidad EAN</title>
-    <link rel="stylesheet" href="semillero cuerpo.css">
+    <link rel="stylesheet" href="semillero cuerpo - copia.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -14,7 +14,6 @@
                 <h1>Universidad EAN</h1>
                 <p>Semilleros de Investigación</p>
             </div>
-
             <nav class="main-nav">
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
@@ -25,8 +24,8 @@
             </nav>
             <button class="mobile-menu-btn" aria-label="Abrir menú">☰</button>
         </div>
-
     </header>
+
     <section id="inicio" class="hero">
         <div class="container">
             <div class="hero-content">
@@ -35,11 +34,15 @@
                 <a href="#semilleros" class="btn">Ver Semilleros</a>
             </div>
         </div>
-
     </section>
+
     <section id="semilleros" class="semilleros-section">
         <div class="container">
-            <h2 class="section-title">Nuestros Semilleros</h2>
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Semilleros</h2>
+                <p class="section-subtitle">Conoce los espacios de investigación disponibles</p>
+            </div>
+            
             <div class="filters">
                 <input type="text" id="search-semillero" placeholder="Buscar semillero...">
                 <select id="filter-area">
@@ -51,61 +54,80 @@
                 </select>
             </div>
             
-            <div class="semilleros-grid">
-                <article class="semillero-card">
-                    <div class="semillero-header">
-                        <h3>Laboratorio Empresarial: Estrategia e innovación</h3>
-                    </div>
-                    <div class="semillero-body">
-                        <p class="semillero-description">Determinar factores clave en la competitividad y sostenibilidad de las empresas pymes colombianas a través del monitoreo continuo de tendencias del mercado.</p>
-                        <div class="semillero-details">
-                            <h4>Objetivos:</h4>
-                            <ul>
-                                <li>Identificación de oportunidades de innovación</li>
-                                <li>Creación de estrategias efectivas</li>
-                            </ul>
-                            <p><strong>Tutor:</strong> Noe Velásquez Espinosa</p>
-                            <p><strong>Contacto:</strong> <a href="mailto:nvelazquez@universidadean.edu.co">nvelazquez@universidadean.edu.co</a></p>
+            <div class="semilleros-page active" data-page="1">
+                <div class="semilleros-grid">
+                    
+                    <article class="semillero-card">
+                        <div class="semillero-header">
+                            <h3>Laboratorio Empresarial: Estrategia e innovación</h3>
                         </div>
-                    </div>
-
-                </article>
-                <article class="semillero-card">
-                    <div class="semillero-header">
-                        <h3>Ciencias del Comportamiento</h3>
-                    </div>
-                    <div class="semillero-body">
-                        <p class="semillero-description">Complementar la formación de los estudiantes de pregrado y posgrado en habilidades de investigación, análisis crítico y pensamiento complejo.</p>
-                        <div class="semillero-details">
-                            <h4>Objetivos:</h4>
-                            <ul>
-                                <li>Desarrollo de experiencia académica enriquecedora</li>
-                                <li>Formación integral como futuros profesionales</li>
-                            </ul>
-                            <p><strong>Tutor:</strong> Carlos Felipe Buitrago</p>
-                            <p><strong>Contacto:</strong> <a href="mailto:cfbuitrago@universidadean.edu.co">cfbuitrago@universidadean.edu.co</a></p>
+                        <div class="semillero-body">
+                            <p class="semillero-description">Determinar factores clave en la competitividad y sostenibilidad de las empresas pymes colombianas a través del monitoreo continuo de tendencias del mercado.</p>
+                            <div class="semillero-details">
+                                <h4>Objetivos:</h4>
+                                <ul>
+                                    <li>Identificación de oportunidades de innovación</li>
+                                    <li>Creación de estrategias efectivas</li>
+                                </ul>
+                                <p><strong>Tutor:</strong> Noe Velásquez Espinosa</p>
+                                <p><strong>Contacto:</strong> <a href="mailto:nvelazquez@universidadean.edu.co">nvelazquez@universidadean.edu.co</a></p>
+                            </div>
                         </div>
-                    </div>
-
-                </article>
-                <article class="semillero-card">
-                    <div class="semillero-header">
-                        <h3>Dirección y Gestión de Proyectos</h3>
-                    </div>
-                    <div class="semillero-body">
-                        <p class="semillero-description">Pone en marcha proyectos y procesos de investigación articulada, enfocados en la identificación y desarrollo de métodos en el área de gerencia.</p>
-                        <div class="semillero-details">
-                            <h4>Objetivos:</h4>
-                            <ul>
-                                <li>Desarrollo de sistemas y procesos</li>
-                                <li>Mejora del desempeño en organizaciones</li>
-                            </ul>
-                            <p><strong>Tutores:</strong> William Fajardo Moreno, Nelson Moreno</p>
-                            <p><strong>Contacto:</strong> <a href="mailto:wsfajardo@universidadean.edu.co">wsfajardo@universidadean.edu.co</a>, <a href="mailto:nmoreno@universidadean.edu.co">nmoreno@universidadean.edu.co</a></p>
+                    </article>
+                    
+                    <article class="semillero-card">
+                        <div class="semillero-header">
+                            <h3>Ciencias del Comportamiento</h3>
                         </div>
-                    </div>
+                        <div class="semillero-body">
+                            <p class="semillero-description">Complementar la formación de los estudiantes de pregrado y posgrado en habilidades de investigación, análisis crítico y pensamiento complejo.</p>
+                            <div class="semillero-details">
+                                <h4>Objetivos:</h4>
+                                <ul>
+                                    <li>Desarrollo de experiencia académica enriquecedora</li>
+                                    <li>Formación integral como futuros profesionales</li>
+                                </ul>
+                                <p><strong>Tutor:</strong> Carlos Felipe Buitrago</p>
+                                <p><strong>Contacto:</strong> <a href="mailto:cfbuitrago@universidadean.edu.co">cfbuitrago@universidadean.edu.co</a></p>
+                            </div>
+                        </div>
+                    </article>
 
+                    <article class="semillero-card">
+                        <div class="semillero-header">
+                            <h3>Dirección y Gestión de Proyectos</h3>
+                        </div>
+                        <div class="semillero-body">
+                            <p class="semillero-description">Pone en marcha proyectos y procesos de investigación articulada, enfocados en la identificación y desarrollo de métodos en el área de gerencia.</p>
+                            <div class="semillero-details">
+                                <h4>Objetivos:</h4>
+                                <ul>
+                                    <li>Desarrollo de sistemas y procesos</li>
+                                    <li>Mejora del desempeño en organizaciones</li>
+                                </ul>
+                                <p><strong>Tutores:</strong> William Fajardo Moreno, Nelson Moreno</p>
+                                <p><strong>Contacto:</strong> <a href="mailto:wsfajardo@universidadean.edu.co">wsfajardo@universidadean.edu.co</a>, <a href="mailto:nmoreno@universidadean.edu.co">nmoreno@universidadean.edu.co</a></p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+            <div class="semilleros-page" data-page="2">
+                <div class="semilleros-grid">
+                    
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <button class="btn-pagination prev" disabled>Anterior</button>
+                <button class="btn-pagination active" data-page="1">1</button>
+                <button class="btn-pagination" data-page="2">2</button>
+                <button class="btn-pagination next">Siguiente</button>
+            </div>
+        </div>
     </section>
+
     <section id="beneficios" class="benefits-section">
         <div class="container">
             <h2 class="section-title">Beneficios de Participar</h2>
@@ -135,6 +157,19 @@
                     <h3>Apoyo Económico</h3>
                     <p>Accede a financiación para eventos, cursos especializados y compra de insumos.</p>
                 </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Apoyo Económico</h3>
+                    <p>Accede a financiación para eventos, cursos especializados y compra de insumos. </p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">💸</div>
+                    <h3>Descuentos en Matricula</h3>
+                    <p>Participa en los diferentes descuentos de acuerdo con tu participación dentro del semillero aplicable a tu Matricula. </p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -182,6 +217,13 @@
                     <p><strong>Líder de Semilleros de Investigación</strong> Tiara Estefani Torres Amaya</p>
                     <p><strong>Correo:</strong> tetorres@universidadean.edu.co</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
                 <div class="footer-section">
                     <h3>Enlaces rápidos</h3>
                     <ul>
@@ -191,12 +233,18 @@
                         <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
-                <div class="footer-bottom">
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>semillerosean@universidadean.edu.co</p>
+                    <p>+57 1 593 6464</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
                 <p>&copy; 2025 Universidad EAN - Proyecto de Metodologías Ágiles</p>
             </div>
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
-
